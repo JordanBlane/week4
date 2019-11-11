@@ -1,0 +1,38 @@
+#playername{
+    margin-top:90px;
+    font-size:30px;
+    visibility: hidden;
+}
+#playerscore{
+    margin-top:30px;
+    font-size:20px;
+    margin-bottom:100px;
+    visibility: hidden;
+}
+
+#roll{
+    margin:auto;
+    width:30%;
+    padding:10px;
+    background-color:darkorchid;
+    margin-top:100px;
+    visibility: hidden;
+}
+#start{
+    background-color:darkorchid;
+    margin:auto;
+    width:30%;
+    padding:10px;
+    font-size:20px;
+    visibility: visible;
+}
+
+body{
+    text-align:center;
+    background-color:#666;
+}
+
+#dice{
+    background-color:yellow;
+    visibility: hidden;
+}
