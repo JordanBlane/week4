@@ -1,3 +1,21 @@
+@keyframes fade{
+    0%{
+        background-color:orange;
+    }
+    25%{
+        background-color:orangered;
+    }
+    50%{
+        background-color:orange;
+    }
+    75%{
+        background-color:yellow;
+    }
+    100%{
+        background-color:orange;
+    }
+}
+
 #playername{
     margin-top:90px;
     font-size:30px;
@@ -28,8 +46,11 @@
 }
 
 body{
+    animation-name:fade;
+    animation-duration: 5s;
+    animation-iteration-count: 10000000000;
     text-align:center;
-    background-color:#666;
+    background-color:fade;
 }
 
 #dice{
